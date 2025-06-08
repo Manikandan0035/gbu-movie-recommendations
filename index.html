@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBU Movie Recommendations - Discover Your Next Favorite Film</title>
+    <link rel="icon" href="\cinema_2809590.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-film"></i>GBU Movie</h1>
+            <p class="tagline">Discover your next favorite film</p>
+        </header>
+        
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="movie-search" placeholder="Search for a movie...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </div>
+        
+        <div class="recommendation-section">
+            <h2 id="recommendation-title">Recommendations for: <span id="selected-movie">Try searching for a movie!</span></h2>
+            <div id="recommendations" class="recommendations-grid"></div>
+        </div>
+        
+        <footer>
+            <p>© 2025 GBU Movie | Powered by TMDB | Created by MANIKANDAN, LOGESHWARAN AND AKASH</p>
+        </footer>
+    </div>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
